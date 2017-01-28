@@ -1,8 +1,6 @@
-import moment from 'moment/min/moment.min';
-
 var timer = function() {
-  var time = moment().format('hh:mm:ss');
-  console.log(time);
+  var date = new Date();
+  console.log(date);
 };
 
 export default function() {
